@@ -40,7 +40,7 @@ jobs:
       run: pip install pylint
 
     - name: Lint Code
-      run: pylint your_python_code_directory
+      run: pylint .
 
   notifications:
     runs-on: ubuntu-latest
