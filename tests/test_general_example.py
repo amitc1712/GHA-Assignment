@@ -14,10 +14,10 @@ class TestEmployeeRecordLoading(unittest.TestCase):
         """
         Test flatten dictionary method.
         """
-        dict = {"key1": [3, 2, 1], "key2": [42, 55, 10], "key3": [0, 22]}
+        dictValues = {"key1": [3, 2, 1], "key2": [42, 55, 10], "key3": [0, 22]}
         expected = [0, 1, 2, 3, 10, 22, 42, 55]
 
-        actual = general_example_instance.flatten_dictionary(dict)
+        actual = general_example_instance.flatten_dictionary(dictValues)
 
         assert expected == actual
 

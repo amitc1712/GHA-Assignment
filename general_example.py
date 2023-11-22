@@ -4,7 +4,7 @@ from typing import Dict, List
 
 class GeneralExample:
     """
-    General examples for employees data
+    General examples for employees data.
     """
 
     def flatten_dictionary(self, content: Dict) -> List:
