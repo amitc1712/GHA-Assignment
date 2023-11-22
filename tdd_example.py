@@ -1,3 +1,8 @@
+"""
+Module purpose: Tdd Example python file
+"""
+
+
 class TDDExample:
     """
     Sample functions for testing

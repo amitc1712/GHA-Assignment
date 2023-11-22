@@ -1,3 +1,7 @@
+"""
+Module purpose: General example python file
+"""
+
 import time
 from typing import Dict, List
 
@@ -28,7 +32,7 @@ class GeneralExample:
         """
         Fetching employee records.
         """
-        db_record = self.load_employee_rec_from_database(self)
+        db_record = self.load_employee_rec_from_database()
 
         emp_details = {
             "empId": db_record[0],
