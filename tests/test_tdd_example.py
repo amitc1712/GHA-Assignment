@@ -3,7 +3,7 @@ Module purpose: Testing the test_tdd_example.py file
 """
 
 import unittest
-from tdd_example import TDDExample
+from src.tdd_example import TDDExample
 
 tdd_example_instance = TDDExample()
 

@@ -4,7 +4,7 @@ Module purpose: Testing the general_example.py file
 
 import unittest
 from unittest.mock import patch
-from general_example import GeneralExample
+from src.general_example import GeneralExample
 
 general_example_instance = GeneralExample()
 
@@ -25,7 +25,7 @@ class TestEmployeeRecordLoading(unittest.TestCase):
 
         assert expected == actual
 
-    @patch("general_example.GeneralExample.load_employee_rec_from_database")
+    @patch("src.general_example.GeneralExample.load_employee_rec_from_database")
     def test_fetch_emp_details(self, mock_load_employee_rec):
         """
         Test fetch employee details method.
