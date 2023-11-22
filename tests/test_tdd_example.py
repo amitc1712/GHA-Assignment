@@ -1,3 +1,7 @@
+"""
+Module purpose: Testing the test_tdd_example.py file
+"""
+
 import unittest
 from tdd_example import TDDExample
 

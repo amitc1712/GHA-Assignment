@@ -1,3 +1,7 @@
+"""
+Module purpose: Testing the general_example.py file
+"""
+
 import unittest
 from unittest.mock import patch
 from general_example import GeneralExample
@@ -14,10 +18,10 @@ class TestEmployeeRecordLoading(unittest.TestCase):
         """
         Test flatten dictionary method.
         """
-        dictValues = {"key1": [3, 2, 1], "key2": [42, 55, 10], "key3": [0, 22]}
+        dict_values = {"key1": [3, 2, 1], "key2": [42, 55, 10], "key3": [0, 22]}
         expected = [0, 1, 2, 3, 10, 22, 42, 55]
 
-        actual = general_example_instance.flatten_dictionary(dictValues)
+        actual = general_example_instance.flatten_dictionary(dict_values)
 
         assert expected == actual
 
