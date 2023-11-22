@@ -49,3 +49,7 @@ jobs:
     - name: Notify on Failure
       if: ${{ failure() }}
       run: echo "Build or linting failed. Notify here, e.g., via email or other notification services."
+
+    - name: Notify on Success
+      if: ${{ success() }}
+      run: echo "Build or linting success. Notify here, e.g., via email or other notification services."
