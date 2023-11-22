@@ -1,6 +1,7 @@
-class TDDExample():
-    def __init__(self):
-        pass
+class TDDExample:
+    """
+    Sample functions for testing
+    """
 
     def reverse_string(self, input_str: str) -> str:
         """
@@ -24,6 +25,6 @@ class TDDExample():
 
     def count_digits(self, input_list: list, number_to_be_counted: int) -> int:
         """
-        Return count of digits
+        Return count of digits.
         """
         return input_list.count(number_to_be_counted)
